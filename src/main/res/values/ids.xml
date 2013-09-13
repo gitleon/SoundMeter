@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_soundmeter" type="id">false</item>
+    <item name="layout_text" type="id">false</item>
+    <item name="text_sounddb" type="id">fasle</item>
+</resources>

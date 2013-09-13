@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <view
+            android:id="@id/view_soundmeter"
+            android:background="#ffe5e5e5"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="com.yl.soundmeter.SoundView"
+    />
+
+    <LinearLayout android:gravity="center"
+                  android:orientation="horizontal"
+                  android:id="@id/layout_text"
+                  android:layout_width="fill_parent"
+                  android:layout_height="fill_parent"
+                  >
+        <TextView
+                android:textSize="18.0dip"
+                android:textColor="#ff000000"
+                android:id="@id/text_sounddb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>
